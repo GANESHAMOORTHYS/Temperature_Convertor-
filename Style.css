@@ -1,0 +1,83 @@
+﻿/* Apply a futuristic background with a gradient */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e1e1e, #333399);
+    color: #fff;
+}
+
+/* Stylish container with a neon effect */
+.container {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    text-align: center;
+    width: 350px;
+    border: 2px solid #00FFFF;
+}
+
+/* Improve typography */
+h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00FFFF;
+    text-shadow: 0 0 10px #00FFFF;
+}
+
+/* Styling for the converter elements */
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Inputs, Select, and Button Styling */
+input, select, button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #00FFFF;
+    background: rgba(255, 255, 255, 0.1);
+    color: #6c757d;
+    transition: 0.3s;
+}
+
+/* Change input focus effect */
+input:focus, select:focus {
+    outline: none;
+    border-color: #00FFFF;
+    box-shadow: 0 0 10px #00FFFF;
+}
+
+/* Stylish button */
+button {
+    background: #00FFFF;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background: 0 0 10px #00FFFF;
+    box-shadow:0 0 10px #00FFFF;
+    color: #fff;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: 0 0 10px #00FFFF;
+    font-weight: bold;
+}
